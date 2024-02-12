@@ -24,3 +24,9 @@
 .container__small-card__separator {
   margin-top: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .container__small-card__content {
+    flex-direction: column;
+  }
+}
